@@ -1,3 +1,4 @@
+import { setStatusBarBackgroundColor } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, FlatList } from 'react-native';
 
@@ -53,6 +54,7 @@ const NewScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: 'blue',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-start',
